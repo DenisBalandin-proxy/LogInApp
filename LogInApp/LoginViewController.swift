@@ -105,7 +105,7 @@ class LoginViewController: UIViewController {
             preferredStyle: .alert
         )
         
-        let ok = UIAlertAction(title: "OK", style: .default, handler: { (action) -> Void in
+        let okButton = UIAlertAction(title: "OK", style: .default, handler: { (action) -> Void in
             switch title {
             case .incorrectData:
                 self.passwordTF.text = ""
@@ -124,7 +124,7 @@ class LoginViewController: UIViewController {
             }
         })
         
-        dialogMessage.addAction(ok)
+        dialogMessage.addAction(okButton)
         self.present(dialogMessage, animated: true, completion: nil)
     }
 }

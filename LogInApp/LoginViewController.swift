@@ -13,14 +13,14 @@ enum WarningState: String {
     case forgotPassword = "Do you forgot your password?"
 }
 
-class LoginViewController: UIViewController {
+final class LoginViewController: UIViewController {
     
     @IBOutlet var helpButtonsStackView: UIStackView!
     
     @IBOutlet var userNameTF: UITextField!
     @IBOutlet var passwordTF: UITextField!
     
-    let accessList: [String: String] = [
+   private let accessList: [String: String] = [
         "admin": "12345",
         "guest": "111"
     ]

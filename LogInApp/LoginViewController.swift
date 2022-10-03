@@ -15,8 +15,6 @@ enum WarningState: String {
 
 final class LoginViewController: UIViewController {
     
-    @IBOutlet var helpButtonsStackView: UIStackView!
-    
     @IBOutlet var userNameTF: UITextField!
     @IBOutlet var passwordTF: UITextField!
     

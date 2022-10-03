@@ -77,7 +77,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="helpButtonsStackView" destination="OmB-3P-RjX" id="jN9-yH-DUE"/>
                         <outlet property="passwordTF" destination="LJM-I8-kg3" id="mUi-9C-KFp"/>
                         <outlet property="userNameTF" destination="HBZ-Ws-yuQ" id="k7B-IH-tzH"/>
                     </connections>

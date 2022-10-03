@@ -74,11 +74,9 @@ final class LoginViewController: UIViewController {
         }
     }
     
-    
     @IBAction func rememberName() {
         displayAlert(title: .forgotName)
     }
-    
     
     @IBAction func rememberPassword() {
         displayAlert(title: .forgotPassword)
